@@ -1,0 +1,6 @@
+Sep 18 12:00:01 server sshd[1234]: Failed password for user root from 192.168.1.10 port 34567
+Sep 18 12:01:15 server sshd[1234]: Failed password for user root from 192.168.1.10 port 34568
+Sep 18 12:05:10 server sshd[1235]: Accepted password for user admin from 192.168.1.11 port 34568
+Sep 18 12:10:22 server sshd[1236]: Failed password for user test from 192.168.1.12 port 34569
+Sep 18 12:15:30 server sshd[1237]: Failed password for user admin from 192.168.1.11 port 34570
+Sep 18 12:20:45 server sshd[1238]: Accepted password for user guest from 192.168.1.13 port 34571

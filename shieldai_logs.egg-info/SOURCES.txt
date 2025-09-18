@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+shieldai_logs/__init__.py
+shieldai_logs/analyzer.py
+shieldai_logs/brain_logo.py
+shieldai_logs/enterprise_audit.py
+shieldai_logs/fast_audit.py
+shieldai_logs/predictor.py
+shieldai_logs/reporte.py
+shieldai_logs/utils.py
+shieldai_logs.egg-info/PKG-INFO
+shieldai_logs.egg-info/SOURCES.txt
+shieldai_logs.egg-info/dependency_links.txt
+shieldai_logs.egg-info/requires.txt
+shieldai_logs.egg-info/top_level.txt
+tests/test_analyzer.py

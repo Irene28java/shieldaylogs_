@@ -1,0 +1,23 @@
+{
+    "host": "example.com",
+    "ports": {
+        "22": "CERRADO",
+        "80": "ABIERTO",
+        "443": "ABIERTO"
+    },
+    "http_headers": {
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/html",
+        "ETag": "\"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"",
+        "Last-Modified": "Mon, 13 Jan 2025 20:11:20 GMT",
+        "Vary": "Accept-Encoding",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=86000",
+        "Date": "Thu, 18 Sep 2025 12:09:56 GMT",
+        "Content-Length": "20",
+        "Connection": "keep-alive"
+    },
+    "http_status": 200,
+    "xss_detected": false,
+    "report_pdf": "fast_audit_report.pdf"
+}

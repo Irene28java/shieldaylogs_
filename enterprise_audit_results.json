@@ -1,0 +1,101 @@
+{
+    "host": "example.com",
+    "ports": {
+        "22": "CERRADO",
+        "80": "ABIERTO",
+        "443": "ABIERTO",
+        "8080": "CERRADO"
+    },
+    "http_headers": {
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/html",
+        "ETag": "\"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"",
+        "Last-Modified": "Mon, 13 Jan 2025 20:11:20 GMT",
+        "Vary": "Accept-Encoding",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=86000",
+        "Date": "Thu, 18 Sep 2025 12:09:59 GMT",
+        "Content-Length": "20",
+        "Connection": "keep-alive"
+    },
+    "http_status": 200,
+    "ssl_cert": {
+        "subject": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "stateOrProvinceName",
+                    "California"
+                ]
+            ],
+            [
+                [
+                    "localityName",
+                    "Los Angeles"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "Internet Corporation for Assigned Names and Numbers"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "*.example.com"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "DigiCert Inc"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+                ]
+            ]
+        ],
+        "version": 3,
+        "serialNumber": "0AD893BAFA68B0B7FB7A404F06ECAF9A",
+        "notBefore": "Jan 15 00:00:00 2025 GMT",
+        "notAfter": "Jan 15 23:59:59 2026 GMT",
+        "subjectAltName": [
+            [
+                "DNS",
+                "*.example.com"
+            ],
+            [
+                "DNS",
+                "example.com"
+            ]
+        ],
+        "OCSP": [
+            "http://ocsp.digicert.com"
+        ],
+        "caIssuers": [
+            "http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt"
+        ],
+        "crlDistributionPoints": [
+            "http://crl3.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crl",
+            "http://crl4.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crl"
+        ]
+    },
+    "report_pdf": "enterprise_audit_report.pdf"
+}

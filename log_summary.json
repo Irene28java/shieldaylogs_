@@ -1,0 +1,48 @@
+{
+    "alerts": [
+        {
+            "line": 1,
+            "type": "LoginFail",
+            "user": "root",
+            "ip": "192.168.1.10",
+            "content": "Sep 18 12:00:01 server sshd[1234]: Failed password for user root from 192.168.1.10 port 34567"
+        },
+        {
+            "line": 2,
+            "type": "LoginFail",
+            "user": "root",
+            "ip": "192.168.1.10",
+            "content": "Sep 18 12:01:15 server sshd[1234]: Failed password for user root from 192.168.1.10 port 34568"
+        },
+        {
+            "line": 4,
+            "type": "LoginFail",
+            "user": "test",
+            "ip": "192.168.1.12",
+            "content": "Sep 18 12:10:22 server sshd[1236]: Failed password for user test from 192.168.1.12 port 34569"
+        },
+        {
+            "line": 5,
+            "type": "LoginFail",
+            "user": "admin",
+            "ip": "192.168.1.11",
+            "content": "Sep 18 12:15:30 server sshd[1237]: Failed password for user admin from 192.168.1.11 port 34570"
+        }
+    ],
+    "risk_score": 20,
+    "total_lines": 6,
+    "top_ips": [
+        [
+            "192.168.1.10",
+            2
+        ],
+        [
+            "192.168.1.12",
+            1
+        ],
+        [
+            "192.168.1.11",
+            1
+        ]
+    ]
+}

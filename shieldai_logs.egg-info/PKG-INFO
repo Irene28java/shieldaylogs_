@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: shieldai_logs
+Version: 0.1.0
+Summary: Libreria IA para analizar logs y detectar anomalías en seguridad
+Home-page: https://github.com/irene_java28/shieldai_logs
+Author: Irene Vaquerizo
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
